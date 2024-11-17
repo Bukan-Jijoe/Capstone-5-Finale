@@ -38,7 +38,13 @@ After that, we exported the dataset in YAML format, ready to be use for our YOLO
   - Then, we proceed with training the model with our custom dataset. We set our parameter with 50 epochs, seed = 42, imgsz = 640 and with patience of 10.
     ![image](https://github.com/user-attachments/assets/04c4f923-9f87-4931-85df-291df9dce918)
 
-  - 
+  - After the model trained, we chose the best model by weights after 50 epoch. This best model located in "runs/detect/train42/weights/best.pt". You can find it there.
+    ![image](https://github.com/user-attachments/assets/176d33e5-bc19-40ee-8465-93ab910941e2)
+
+  - Here we can see model metrics and it appear the model passed the needed criteria.
+    ![image](https://github.com/user-attachments/assets/f1488879-a2f9-4a8a-bbe0-672433db19cb)
+
+
 
 
     
