@@ -20,4 +20,26 @@ This augmentation process increased the variety of training data and will help t
 
 After that, we exported the dataset in YAML format, ready to be use for our YOLO model. 
 
-## 
+## Development for Model and Chatbot
+
+1. Model Development
+
+  - For model development, we used Jupyter Notebook for the coding platform and imported necessary libraries as shown below
+    ![image](https://github.com/user-attachments/assets/ffdafc96-4e6d-4e41-bad0-915474381f96)
+
+  - For this project, we dont use many library packages as previous projects.
+
+  - To load our dataset in YAML format, we use this relative pathway for easiness when changing PC
+    ![image](https://github.com/user-attachments/assets/ba1549fd-874e-4d45-b16f-ec937630fdc4)
+
+  - After load dataset, we load the pretrained model from Ultralytics. Here we use the smallest model and latest model, Yolo11n.
+    ![image](https://github.com/user-attachments/assets/40ca1730-ae8e-447b-b977-8b15cc62dbde)
+
+  - Then, we proceed with training the model with our custom dataset. We set our parameter with 50 epochs, seed = 42, imgsz = 640 and with patience of 10.
+    ![image](https://github.com/user-attachments/assets/04c4f923-9f87-4931-85df-291df9dce918)
+
+  - 
+
+
+    
+
