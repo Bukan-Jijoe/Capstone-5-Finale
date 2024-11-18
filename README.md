@@ -33,6 +33,7 @@ After that, we exported the dataset in YAML format, ready to be use for our YOLO
     ![image](https://github.com/user-attachments/assets/ba1549fd-874e-4d45-b16f-ec937630fdc4)
 
   - After load dataset, we load the pretrained model from Ultralytics. Here we use the smallest model and latest model, Yolo11n.
+    
     ![image](https://github.com/user-attachments/assets/40ca1730-ae8e-447b-b977-8b15cc62dbde)
 
   - Then, we proceed with training the model with our custom dataset. We set our parameter with 50 epochs, seed = 42, imgsz = 640 and with patience of 10.
@@ -48,6 +49,10 @@ After that, we exported the dataset in YAML format, ready to be use for our YOLO
     ![image](https://github.com/user-attachments/assets/79da35ff-b0d9-4b69-939f-d5de243c9dd6)
     ![image](https://github.com/user-attachments/assets/78c2ffac-b88b-4a21-8d43-9329d0501a73)
   - As we can see, this shows the model managed to correctly classify the images.
+
+  - Here code for using webcam to predict.
+    ![image](https://github.com/user-attachments/assets/59cb75bf-0b58-414e-a307-332d0984508d)
+    ![image](https://github.com/user-attachments/assets/fe4c3cef-f69c-4c93-b2c6-06627985f564)
 
   - Since we satisfied with the results, we save the model to be use later on.
     
@@ -91,11 +96,28 @@ First we need create an environment for the Yolo Model. We used Anaconda for thi
 
 Next, after finished create environment. We proceed with
 
+To import YOLO model, we need ultralytics to be installed
  - pip install ultralytics
- - pip install 
+   
+To use camera, we need opencv
+ - pip install opencv-python
+   
+This is for numpy image
+ - pip install numpy
+   
+This one for showing images with boundary boxes
+ - pip install matplotlib
+
+This one not compulsary, but if you need data graph for the model and its analytic, you going to need one. No need to code it, since Yolo Model will automatically use it if present.
+ - pip install tensorflow
+ - pip install tensorboard
 
 
-     
+## Acknowledgements
+
+- Also thanks to my SHRDC Trainers for giving me the opportunity and knowledges about coding, machine learning and deep learning
+- Many thank to my friends that help me in gathering and collecting data together at supermarket. Without them, this project won't be finished in time. 
+
 
 
     
