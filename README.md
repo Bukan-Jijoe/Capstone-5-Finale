@@ -47,7 +47,12 @@ After that, we exported the dataset in YAML format, ready to be use for our YOLO
   - Thus, we proceed with the prediction to the model whether it can classify correctly
     ![image](https://github.com/user-attachments/assets/79da35ff-b0d9-4b69-939f-d5de243c9dd6)
     ![image](https://github.com/user-attachments/assets/78c2ffac-b88b-4a21-8d43-9329d0501a73)
-  - As we can see, this shows the model managed to correctly classify the images. 
+  - As we can see, this shows the model managed to correctly classify the images.
+
+  - Since we satisfied with the results, we save the model to be use later on.
+    ![image](https://github.com/user-attachments/assets/80cc4e06-36a3-4a80-a30f-5464a93c54bb)
+
+    
 
     
 
