@@ -44,6 +44,14 @@ After that, we exported the dataset in YAML format, ready to be use for our YOLO
   - Here we can see model metrics and it appear the model passed the needed criteria.
     ![image](https://github.com/user-attachments/assets/f1488879-a2f9-4a8a-bbe0-672433db19cb)
 
+  - Thus, we proceed with the prediction to the model whether it can classify correctly
+    ![image](https://github.com/user-attachments/assets/79da35ff-b0d9-4b69-939f-d5de243c9dd6)
+    ![image](https://github.com/user-attachments/assets/78c2ffac-b88b-4a21-8d43-9329d0501a73)
+  - As we can see, this shows the model managed to correctly classify the images. 
+
+    
+
+
 
 
 
